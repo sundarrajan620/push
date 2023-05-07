@@ -15,13 +15,22 @@ const excelSchema = new mongoose.Schema({
             boolAnswer: { type: Boolean, default: false },
             difficulty: { type: String, default: "medium" },
 
-            first: { type: String },
+
+           
+             first: { type: String },
             // gdgfjdgfdgjd
             //gsdfgagf
+
+            explanationn: { type: String },
+            boolAnswerr: { type: Boolean, default: false },
+            difficultyy: { type: String, default: "medium" }
 
 
         }]
     }]
 })
+
+//dfsdfjahjdfjkadfsgfsfgs
+//dfgshfssffffffffffffffffff
 
 module.exports = mongoose.model('ExcelBio', excelSchema);
